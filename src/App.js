@@ -124,7 +124,7 @@ function App() {
           case 8:
             playNum8();
             break;
-          case 9:
+          default:
             playNum9();
             break;
         }
