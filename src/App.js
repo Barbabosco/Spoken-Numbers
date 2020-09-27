@@ -279,18 +279,6 @@ function App() {
           &nbsp;
           <button
             onClick={() => {
-              setSequenceLimit(15);
-            }}
-            style={{
-              fontSize: "0.6rem",
-              padding: "0.4rem",
-            }}
-          >
-            15
-          </button>
-          &nbsp;
-          <button
-            onClick={() => {
               setSequenceLimit(20);
             }}
             style={{
@@ -299,18 +287,6 @@ function App() {
             }}
           >
             20
-          </button>
-          &nbsp;
-          <button
-            onClick={() => {
-              setSequenceLimit(25);
-            }}
-            style={{
-              fontSize: "0.6rem",
-              padding: "0.4rem",
-            }}
-          >
-            25
           </button>
           &nbsp;
           <button
@@ -327,18 +303,6 @@ function App() {
           &nbsp;
           <button
             onClick={() => {
-              setSequenceLimit(35);
-            }}
-            style={{
-              fontSize: "0.6rem",
-              padding: "0.4rem",
-            }}
-          >
-            35
-          </button>
-          &nbsp;
-          <button
-            onClick={() => {
               setSequenceLimit(40);
             }}
             style={{
@@ -351,18 +315,6 @@ function App() {
           &nbsp;
           <button
             onClick={() => {
-              setSequenceLimit(45);
-            }}
-            style={{
-              fontSize: "0.6rem",
-              padding: "0.4rem",
-            }}
-          >
-            45
-          </button>
-          &nbsp;
-          <button
-            onClick={() => {
               setSequenceLimit(50);
             }}
             style={{
@@ -371,6 +323,30 @@ function App() {
             }}
           >
             50
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setSequenceLimit(75);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            75
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setSequenceLimit(100);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            100
           </button>
         </div>
 
