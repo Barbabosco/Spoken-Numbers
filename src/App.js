@@ -177,7 +177,6 @@ function App() {
     <div className="App">
       <header>
         <h1>Spoken words</h1>
-        <button onClick={playNum0}>prova</button>
       </header>
       <section>
         <div style={{ margin: "0.75rem 0rem" }}>
@@ -203,7 +202,7 @@ function App() {
               setDelay(delay + 1);
             }}
           >
-            -
+            +
           </button>
           &nbsp;&nbsp;&nbsp;
           <button
@@ -337,7 +336,7 @@ function App() {
               setSequenceLimit(sequenceLimit + 1);
             }}
           >
-            -
+            +
           </button>
           &nbsp;&nbsp;&nbsp;
           <button
@@ -479,13 +478,13 @@ function App() {
           </button>
         </div>
         <div>
-          Play audio (only 0-9)
+          Play audio (only 0-9)&nbsp;
           <input
             type="checkbox"
             checked={playAudio}
             onChange={handlePlayAudio}
           />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Show numbers
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Show numbers&nbsp;
           <input
             type="checkbox"
             checked={showNumbers}
