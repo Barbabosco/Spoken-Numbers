@@ -11,50 +11,50 @@ function App() {
   const [sequence, setSequence] = React.useState([]);
   const [sequenceLimit, setSequenceLimit] = React.useState(10);
   const [showSequence, setShowSequence] = React.useState(false);
-  const [playAudio, setPlayAudio] = React.useState(true);
+  // const [playAudio, setPlayAudio] = React.useState(true);
   const [showNumbers, setShowNumbers] = React.useState(true);
 
-  const audio0 = new Audio("/num0.mp3");
-  const audio1 = new Audio("/num1.mp3");
-  const audio2 = new Audio("/num2.mp3");
-  const audio3 = new Audio("/num3.mp3");
-  const audio4 = new Audio("/num4.mp3");
-  const audio5 = new Audio("/num5.mp3");
-  const audio6 = new Audio("/num6.mp3");
-  const audio7 = new Audio("/num7.mp3");
-  const audio8 = new Audio("/num8.mp3");
-  const audio9 = new Audio("/num9.mp3");
+  // const audio0 = new Audio("/num0.mp3");
+  // const audio1 = new Audio("/num1.mp3");
+  // const audio2 = new Audio("/num2.mp3");
+  // const audio3 = new Audio("/num3.mp3");
+  // const audio4 = new Audio("/num4.mp3");
+  // const audio5 = new Audio("/num5.mp3");
+  // const audio6 = new Audio("/num6.mp3");
+  // const audio7 = new Audio("/num7.mp3");
+  // const audio8 = new Audio("/num8.mp3");
+  // const audio9 = new Audio("/num9.mp3");
 
-  const playNum0 = () => {
-    audio0.play();
-  };
-  const playNum1 = () => {
-    audio1.play();
-  };
-  const playNum2 = () => {
-    audio2.play();
-  };
-  const playNum3 = () => {
-    audio3.play();
-  };
-  const playNum4 = () => {
-    audio4.play();
-  };
-  const playNum5 = () => {
-    audio5.play();
-  };
-  const playNum6 = () => {
-    audio6.play();
-  };
-  const playNum7 = () => {
-    audio7.play();
-  };
-  const playNum8 = () => {
-    audio8.play();
-  };
-  const playNum9 = () => {
-    audio9.play();
-  };
+  // const playNum0 = () => {
+  //   audio0.play();
+  // };
+  // const playNum1 = () => {
+  //   audio1.play();
+  // };
+  // const playNum2 = () => {
+  //   audio2.play();
+  // };
+  // const playNum3 = () => {
+  //   audio3.play();
+  // };
+  // const playNum4 = () => {
+  //   audio4.play();
+  // };
+  // const playNum5 = () => {
+  //   audio5.play();
+  // };
+  // const playNum6 = () => {
+  //   audio6.play();
+  // };
+  // const playNum7 = () => {
+  //   audio7.play();
+  // };
+  // const playNum8 = () => {
+  //   audio8.play();
+  // };
+  // const playNum9 = () => {
+  //   audio9.play();
+  // };
 
   function useInterval(callback, delay) {
     const savedCallback = React.useRef();
@@ -81,7 +81,6 @@ function App() {
       setCounter(function () {
         return counter + 1;
       });
-      console.log(`counter: ${counter}`);
       setColorIndex(function () {
         if (colorIndex === 9) {
           return 0;
@@ -92,42 +91,42 @@ function App() {
       const lastRandomNum =
         Math.floor(Math.random() * (maxNumIncluded + 1 - minNumIncluded)) +
         minNumIncluded;
-      if (0 <= lastRandomNum && lastRandomNum <= 9) {
-        // if (lastRandomNum) {
-        //   playNum0();
-        // }
-        switch (lastRandomNum) {
-          case 0:
-            playNum0();
-            break;
-          case 1:
-            playNum1();
-            break;
-          case 2:
-            playNum2();
-            break;
-          case 3:
-            playNum3();
-            break;
-          case 4:
-            playNum4();
-            break;
-          case 5:
-            playNum5();
-            break;
-          case 6:
-            playNum6();
-            break;
-          case 7:
-            playNum7();
-            break;
-          case 8:
-            playNum8();
-            break;
-          default:
-            playNum9();
-            break;
-        }
+      // if (0 <= lastRandomNum && lastRandomNum <= 9) {
+      //   switch (lastRandomNum) {
+      //     case 0:
+      //       playNum0();
+      //       break;
+      //     case 1:
+      //       playNum1();
+      //       break;
+      //     case 2:
+      //       playNum2();
+      //       break;
+      //     case 3:
+      //       playNum3();
+      //       break;
+      //     case 4:
+      //       playNum4();
+      //       break;
+      //     case 5:
+      //       playNum5();
+      //       break;
+      //     case 6:
+      //       playNum6();
+      //       break;
+      //     case 7:
+      //       playNum7();
+      //       break;
+      //     case 8:
+      //       playNum8();
+      //       break;
+      //     default:
+      //       playNum9();
+      //       break;
+      //   }
+      // }
+      if (sequence.length + 1 === sequenceLimit) {
+        handleStop();
       }
       setSequence([...sequence, lastRandomNum]);
     },
@@ -165,9 +164,9 @@ function App() {
     setShowSequence(true);
   };
 
-  const handlePlayAudio = () => {
-    setPlayAudio(!playAudio);
-  };
+  // const handlePlayAudio = () => {
+  //   setPlayAudio(!playAudio);
+  // };
 
   const handleShowNumbers = () => {
     setShowNumbers(!showNumbers);
@@ -478,13 +477,14 @@ function App() {
           </button>
         </div>
         <div>
-          Play audio (only 0-9)&nbsp;
+          {/* Play audio (only 0-9)&nbsp;
           <input
             type="checkbox"
             checked={playAudio}
             onChange={handlePlayAudio}
           />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Show numbers&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  */}
+          Show numbers&nbsp;
           <input
             type="checkbox"
             checked={showNumbers}
