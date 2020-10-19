@@ -476,6 +476,544 @@ function App() {
             99
           </button>
         </div>
+
+        {/* inizio sezione */}
+        <div>
+        <button
+            onClick={() => {
+              setMinNumIncluded(0);
+              setMaxNumIncluded(9);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            0-9
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(10);
+              setMaxNumIncluded(19);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            10-19
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(20);
+              setMaxNumIncluded(29);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            20-29
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(30);
+              setMaxNumIncluded(39);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            30-39
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(40);
+              setMaxNumIncluded(49);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            40-49
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(50);
+              setMaxNumIncluded(59);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            50-59
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(60);
+              setMaxNumIncluded(69);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            60-69
+          </button>                              
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(70);
+              setMaxNumIncluded(79);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            70-79
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(80);
+              setMaxNumIncluded(89);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            80-89
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(90);
+              setMaxNumIncluded(99);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            90-99
+          </button>                    
+        </div>
+        <div>
+          <button
+            onClick={() => {
+              setMinNumIncluded(0);
+              setMaxNumIncluded(19);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            0-19
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(20);
+              setMaxNumIncluded(39);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            20-39
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(40);
+              setMaxNumIncluded(59);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            40-59
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(60);
+              setMaxNumIncluded(79);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            70-79
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(80);
+              setMaxNumIncluded(99);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            80-99
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(10);
+              setMaxNumIncluded(29);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            10-29
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(30);
+              setMaxNumIncluded(49);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            30-49
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(50);
+              setMaxNumIncluded(69);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            50-69
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(70);
+              setMaxNumIncluded(89);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            70-89
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(90);
+              setMaxNumIncluded(9);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            90-9
+          </button>
+          &nbsp;                                                  
+        </div>
+        {/* fine sezione */}
+
+
+        {/* inizio sezione */}
+        <div>
+        <button
+            onClick={() => {
+              setMinNumIncluded(5);
+              setMaxNumIncluded(14);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            5-14
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(15);
+              setMaxNumIncluded(24);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            15-24
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(25);
+              setMaxNumIncluded(34);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            25-34
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(35);
+              setMaxNumIncluded(44);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            35-44
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(45);
+              setMaxNumIncluded(54);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            45-54
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(55);
+              setMaxNumIncluded(64);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            55-64
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(65);
+              setMaxNumIncluded(74);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            65-74
+          </button>                              
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(75);
+              setMaxNumIncluded(84);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            75-84
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(85);
+              setMaxNumIncluded(94);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            85-94
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(95);
+              setMaxNumIncluded(104);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            95-104
+          </button>                    
+        </div>
+        <div>
+          <button
+            onClick={() => {
+              setMinNumIncluded(5);
+              setMaxNumIncluded(24);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            5-24
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(25);
+              setMaxNumIncluded(44);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            25-44
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(45);
+              setMaxNumIncluded(64);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            45-64
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(65);
+              setMaxNumIncluded(84);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            65-84
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(85);
+              setMaxNumIncluded(4);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            85-4
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(15);
+              setMaxNumIncluded(34);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            15-34
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(35);
+              setMaxNumIncluded(54);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            35-54
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(55);
+              setMaxNumIncluded(74);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            55-74
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(75);
+              setMaxNumIncluded(94);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            75-94
+          </button>
+          &nbsp;
+          <button
+            onClick={() => {
+              setMinNumIncluded(95);
+              setMaxNumIncluded(14);
+            }}
+            style={{
+              fontSize: "0.6rem",
+              padding: "0.4rem",
+            }}
+          >
+            95-14
+          </button>
+          &nbsp;                                                  
+        </div>
+        {/* fine sezione */}
+
+
+
+
+
         <div>
           {/* Play audio (only 0-9)&nbsp;
           <input
